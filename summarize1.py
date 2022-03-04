@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 
 
-with open("sample.txt", "r") as file:
+with open("sample3.txt", "r") as file:
     text = file.read().replace('\n', '')
 
 

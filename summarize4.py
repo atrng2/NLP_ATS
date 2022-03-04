@@ -6,7 +6,7 @@ from sumy.nlp.tokenizers import Tokenizer
 
 
 
-with open("sample.txt", "r") as file:
+with open("sample3.txt", "r") as file:
     text = file.read().replace('\n', '')
 
 # Creating text parser using tokenization

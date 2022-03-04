@@ -8,12 +8,12 @@ from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
 from heapq import nlargest
 
-from newspaper import Article
+#from newspaper import Article
 
-url = 'https://genius.com/Dr-seuss-green-eggs-and-ham-excerpt-annotated'
-article = Article(url)
-article.download()
-article.parse()
+#url = 'https://genius.com/Dr-seuss-green-eggs-and-ham-excerpt-annotated'
+#article = Article(url)
+#article.download()
+#article.parse()
 
 
 
@@ -47,7 +47,7 @@ def summarize(text, per):
     summary=''.join(final_summary)
     return summary 
 
-with open("sample.txt", "r") as file:
+with open("sample3.txt", "r") as file:
     article = file.read().replace('\n', '')
 
 
